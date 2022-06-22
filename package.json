@@ -1,13 +1,14 @@
 {
   "name": "cypher-parser",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Node addon on top of libcypher-parser, used to parse and lint cypher queries.",
   "os": [
     "darwin",
     "linux"
   ],
   "cpu": [
-    "x64"
+    "x64",
+    "arm64"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -58,7 +59,7 @@
     "chai": "^4.1.2",
     "codecov": "^3.0.2",
     "mocha": "^5.2.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.1.0",
     "source-map-support": "^0.5.6",
     "ts-node": "^6.1.0",
     "tslint": "^5.8.0",
